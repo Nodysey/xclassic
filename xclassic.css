@@ -1,0 +1,121 @@
+* {
+    --bg-main: #101010
+}
+
+tv-page-heading.tv-page-grid, tv-grid-timeline.tv-page-grid {
+    background-color: var(--bg-main);
+}
+
+.xc-header--container {
+    display: none;
+}
+
+[partner="comcast"] .tv-header-0 header.primary.tv-header .logo.tv-header iron-icon.tv-header, .tv-header-0[partner="comcast"] header.primary.tv-header .logo.tv-header iron-icon.tv-header {
+    color: #b0b0b0;
+}
+
+.channel-number.tv-grid-row {
+    text-align: right;
+    position: absolute;
+    top: -11px;
+    left: 32px;
+    width: 80%;
+    color: white;
+    font-weight: 500;
+}
+
+.channel-callsign.tv-grid-row {
+    display: block;
+    text-align: right;
+    position: absolute;
+    top: 31px;
+    left: -16px;
+    width: 100%;
+    font-weight: 500;
+}
+
+.play-button.tv-grid-row {
+    opacity: 0;
+}
+
+#grid .x-scope .tv-grid-row-0 .style-scope .tv-page-grid {
+    scroll-snap-align: center none;
+    scroll-snap-type: both mandatory;
+}
+
+.tv-grid-timeline-0 .timeline-action.tv-grid-timeline {
+    background: linear-gradient(180deg, rgba(51,51,51,1) 0%, rgba(10,10,10,1) 100%);
+    border-right: 3px solid var(--bg-main);
+    height: 30px;
+    padding: 0 8px;
+    text-align: left;
+}
+
+.tv-datepicker-0 #selectedDate.tv-datepicker {
+    width: 170px;
+    left: 2px;
+    top: 8px;
+    height: 30px;
+    border-radius: 0;
+    background: linear-gradient(180deg, rgba(51,51,51,1) 0%, rgba(10,10,10,1) 100%);
+}
+
+.tv-grid-timeline-0 .timeline.tv-grid-timeline {
+    top: 20px;
+}
+
+.tv-grid-row-0 .grid-program-action.tv-grid-row:focus, .tv-grid-row-0 .grid-program-action.tv-grid-row {
+    background: linear-gradient(180deg, rgba(60,60,60,1) 0%, rgba(34,34,34,1) 100%);
+    border-color: var(--bg-main);
+    border-width: 3px;
+    box-shadow: none;
+    border-top: none;
+}
+
+/* 
+[fixed-header] .tv-page-grid-0 tv-grid-timeline.tv-page-grid .timeline-wrapper, .tv-page-grid-0[fixed-header] tv-grid-timeline.tv-page-grid .timeline-wrapper {
+    left: 363px;
+    position: relative;
+}
+*/
+
+.tv-grid-timeline-0 #currentTimeWrapper.tv-grid-timeline {
+    top: 31px;
+    background-color: transparent;
+    height: 2px;
+}
+
+.tv-grid-timeline-0 #currentTime.tv-grid-timeline {
+    height: 100%;
+}
+
+.tv-grid-timeline-0 .timeline-arrow.next.tv-grid-timeline {
+    right: -40px;
+}
+
+.tv-grid-row-0 .channel-logo.tv-grid-row
+
+[partner="comcast"] .tv-header-0 header.primary.tv-header .logo.tv-header iron-icon.tv-header, .tv-header-0[partner="comcast"] header.primary.tv-header .logo.tv-header iron-icon.tv-header::after {
+    border-right: 1px solid white;
+}
+
+.tv-grid-row-0 .grid-channel-action.tv-grid-row {
+    background: linear-gradient(50deg, rgba(16,16,16,1) 0%, rgba(56,56,56,1) 100%);
+    border-right: 3px solid var(--bg-main);
+    border-bottom: 3px solid var(--bg-main);
+    padding-left: 24px;
+    width: 180px;
+    position: relative;
+    left: -8px;
+    box-shadow: 5px 0px 10px 0px #000000;
+}
+
+.tv-grid-row-0 tv-button-favorite.tv-grid-row {
+    position: absolute;
+    left: -40px;
+}
+
+.tv-grid-row-0 .grid-program-action.tv-grid-row:focus .grid-program-title.tv-grid-row, .tv-grid-row-0 .grid-program-action.tv-grid-row:hover .grid-program-title.tv-grid-row {
+    padding-top: 2.3rem;
+    transition: color .1s ease;
+}
